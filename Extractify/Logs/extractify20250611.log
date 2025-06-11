@@ -1,0 +1,4 @@
+2025-06-11 16:33:18.163 +05:00 [INF] Validating DI for IScraperClient
+2025-06-11 16:33:18.942 +05:00 [INF] Validating DI for IScrapingService
+2025-06-11 16:33:23.036 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-11 16:33:24.196 +05:00 [INF] DI validation successful

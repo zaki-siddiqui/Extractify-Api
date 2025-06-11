@@ -1,0 +1,313 @@
+2025-06-10 14:06:33.541 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-10 14:06:33.784 +05:00 [DBG] Hosting starting
+2025-06-10 14:06:34.494 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-10 14:06:34.504 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-10 14:06:34.505 +05:00 [DBG] Loaded hosting startup assembly Extractify.Api
+2025-06-10 14:06:34.506 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-10 14:06:34.508 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-10 14:06:34.509 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-10 14:06:34.625 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 14:06:34.639 +05:00 [INF] Hosting environment: Development
+2025-06-10 14:06:34.707 +05:00 [DBG] Connection id "0HND7VOCN8L1I" accepted.
+2025-06-10 14:06:34.709 +05:00 [DBG] Connection id "0HND7VOCN8L1I" received FIN.
+2025-06-10 14:06:34.729 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-10 14:06:34.746 +05:00 [DBG] Hosting started
+2025-06-10 14:06:34.740 +05:00 [DBG] Connection id "0HND7VOCN8L1I" started.
+2025-06-10 14:06:34.826 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-10 14:06:34.883 +05:00 [DBG] Connection id "0HND7VOCN8L1I" stopped.
+2025-06-10 14:06:34.893 +05:00 [DBG] Connection id "0HND7VOCN8L1I" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-10 14:06:37.163 +05:00 [DBG] Connection id "0HND7VOCN8L1J" accepted.
+2025-06-10 14:06:37.349 +05:00 [DBG] Connection id "0HND7VOCN8L1K" accepted.
+2025-06-10 14:06:37.349 +05:00 [DBG] Connection id "0HND7VOCN8L1J" started.
+2025-06-10 14:06:37.353 +05:00 [DBG] Connection id "0HND7VOCN8L1K" started.
+2025-06-10 14:06:37.476 +05:00 [DBG] Connection 0HND7VOCN8L1J established using the following protocol: "Tls12"
+2025-06-10 14:06:37.476 +05:00 [DBG] Connection 0HND7VOCN8L1K established using the following protocol: "Tls12"
+2025-06-10 14:06:37.483 +05:00 [DBG] Connection id "0HND7VOCN8L1J" reset.
+2025-06-10 14:06:37.523 +05:00 [DBG] Connection id "0HND7VOCN8L1J" is closed. The last processed stream ID was 0.
+2025-06-10 14:06:37.563 +05:00 [DBG] Connection id "0HND7VOCN8L1J" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-10 14:06:37.581 +05:00 [DBG] The connection queue processing loop for 0HND7VOCN8L1J completed.
+2025-06-10 14:06:37.591 +05:00 [DBG] Connection id "0HND7VOCN8L1J" stopped.
+2025-06-10 14:06:37.624 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-10 14:06:38.195 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-10 14:06:38.230 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-10 14:06:38.233 +05:00 [DBG] Request did not match any endpoints
+2025-06-10 14:06:38.353 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-10 14:06:38.356 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-10 14:06:38.400 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-10 14:06:38.402 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-10 14:06:38.411 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 792.9554ms
+2025-06-10 14:06:38.613 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-10 14:06:38.657 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 44.1115ms
+2025-06-10 14:06:39.100 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-10 14:06:39.258 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 157.6006ms
+2025-06-10 14:06:40.449 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-10 14:06:40.520 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-10 14:06:40.523 +05:00 [DBG] Request did not match any endpoints
+2025-06-10 14:06:40.542 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 93.3575ms
+2025-06-10 14:06:48.292 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/ScrapingTasks - null null
+2025-06-10 14:06:48.305 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-10 14:06:48.326 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)' with route pattern 'api/ScrapingTasks' is valid for the request path '/api/ScrapingTasks'
+2025-06-10 14:06:48.329 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 14:06:48.335 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-10 14:06:48.343 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 14:06:48.372 +05:00 [INF] Route matched with {action = "GetAllTasks", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTasks() on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-10 14:06:48.378 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-10 14:06:48.380 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-10 14:06:48.382 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-10 14:06:48.385 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-10 14:06:48.388 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-10 14:06:48.394 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:06:48.410 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:06:48.559 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) - Validation state: "Valid"
+2025-06-10 14:06:51.862 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 14:06:51.958 +05:00 [DBG] Compiling query expression: 
+'DbSet<ScrapingTask>()'
+2025-06-10 14:06:52.399 +05:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ScrapingTask>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ScrapingTask.ScrapingTaskId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScrapingTask.CompletedAt (DateTime?), 1], [Property: ScrapingTask.CreatedAt (DateTime) Required, 2], [Property: ScrapingTask.Selector (string) Required, 3], [Property: ScrapingTask.Status (string) Required, 4], [Property: ScrapingTask.Url (string) Required, 5] }
+        SELECT s.ScrapingTaskId, s.CompletedAt, s.CreatedAt, s.Selector, s.Status, s.Url
+        FROM ScrapingTasks AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScrapingTask>, 
+    Extractify.Infrastructure.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-06-10 14:06:52.465 +05:00 [DBG] Creating DbConnection.
+2025-06-10 14:06:52.500 +05:00 [DBG] Created DbConnection. (33ms).
+2025-06-10 14:06:52.508 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:06:53.123 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:06:53.129 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 14:06:53.136 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (7ms).
+2025-06-10 14:06:53.143 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (14ms).
+2025-06-10 14:06:53.159 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+2025-06-10 14:06:53.263 +05:00 [INF] Executed DbCommand (106ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+2025-06-10 14:06:53.337 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:06:53.417 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:06:53.434 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 157ms reading results.
+2025-06-10 14:06:53.444 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:06:53.457 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (10ms).
+2025-06-10 14:06:53.511 +05:00 [INF] Executed action method Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4945.1231ms.
+2025-06-10 14:06:53.524 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-10 14:06:53.533 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-10 14:06:53.535 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-10 14:06:53.538 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-10 14:06:53.542 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-06-10 14:06:53.547 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Extractify.Application.DTOs.ScrapingTaskDto, Extractify.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-10 14:06:53.585 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) in 5189.4119ms
+2025-06-10 14:06:53.592 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 14:06:53.598 +05:00 [INF] HTTP GET /api/ScrapingTasks responded 200 in 5257.1505 ms
+2025-06-10 14:06:53.606 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 14:06:53.615 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:06:53.620 +05:00 [DBG] Disposed connection to database '' on server '' (5ms).
+2025-06-10 14:06:53.642 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/ScrapingTasks - 200 null application/json; charset=utf-8 5349.973ms
+2025-06-10 14:07:05.759 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/ScrapingTasks/2 - null null
+2025-06-10 14:07:05.766 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks/2'
+2025-06-10 14:07:05.770 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api)' with route pattern 'api/ScrapingTasks/{id}' is valid for the request path '/api/ScrapingTasks/2'
+2025-06-10 14:07:05.774 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api)'
+2025-06-10 14:07:05.776 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-10 14:07:05.779 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api)'
+2025-06-10 14:07:05.814 +05:00 [INF] Route matched with {action = "GetTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetTask(Int32) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-10 14:07:05.820 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-10 14:07:05.824 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-10 14:07:05.826 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-10 14:07:05.830 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-10 14:07:05.833 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-10 14:07:05.837 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:07:05.840 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:07:05.869 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-06-10 14:07:05.877 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-06-10 14:07:05.883 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:05.886 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:05.890 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-06-10 14:07:05.896 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:05.949 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api) - Validation state: "Valid"
+2025-06-10 14:07:09.683 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 14:07:09.743 +05:00 [DBG] Compiling query expression: 
+'DbSet<ScrapingTask>()
+    .FirstOrDefault(e => EF.Property<int>(e, "ScrapingTaskId") == __p_0)'
+2025-06-10 14:07:09.888 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ScrapingTask>(
+    asyncEnumerable: new SingleQueryingEnumerable<ScrapingTask>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ScrapingTask.ScrapingTaskId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScrapingTask.CompletedAt (DateTime?), 1], [Property: ScrapingTask.CreatedAt (DateTime) Required, 2], [Property: ScrapingTask.Selector (string) Required, 3], [Property: ScrapingTask.Status (string) Required, 4], [Property: ScrapingTask.Url (string) Required, 5] }
+            SELECT TOP(1) s.ScrapingTaskId, s.CompletedAt, s.CreatedAt, s.Selector, s.Status, s.Url
+            FROM ScrapingTasks AS s
+            WHERE s.ScrapingTaskId == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScrapingTask>, 
+        Extractify.Infrastructure.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-10 14:07:09.910 +05:00 [DBG] Creating DbConnection.
+2025-06-10 14:07:09.913 +05:00 [DBG] Created DbConnection. (2ms).
+2025-06-10 14:07:09.916 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:09.920 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:09.922 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 14:07:09.923 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-06-10 14:07:09.930 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (8ms).
+2025-06-10 14:07:09.938 +05:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 14:07:09.995 +05:00 [INF] Executed DbCommand (63ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 14:07:09.999 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:10.002 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:10.006 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 7ms reading results.
+2025-06-10 14:07:10.010 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:10.012 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (2ms).
+2025-06-10 14:07:10.018 +05:00 [INF] Executed action method Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 4062.9091ms.
+2025-06-10 14:07:10.021 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-10 14:07:10.027 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-10 14:07:10.029 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-10 14:07:10.033 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-10 14:07:10.036 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-06-10 14:07:10.039 +05:00 [INF] Executing OkObjectResult, writing value of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-10 14:07:10.043 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api) in 4206.0707ms
+2025-06-10 14:07:10.046 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetTask (Extractify.Api)'
+2025-06-10 14:07:10.052 +05:00 [INF] HTTP GET /api/ScrapingTasks/2 responded 200 in 4273.5188 ms
+2025-06-10 14:07:10.056 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 14:07:10.058 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:10.060 +05:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-06-10 14:07:10.063 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/ScrapingTasks/2 - 200 null application/json; charset=utf-8 4304.2488ms
+2025-06-10 14:07:30.764 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks/2/execute - null 0
+2025-06-10 14:07:30.771 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks/2/execute'
+2025-06-10 14:07:30.774 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)' with route pattern 'api/ScrapingTasks/{id}/execute' is valid for the request path '/api/ScrapingTasks/2/execute'
+2025-06-10 14:07:30.777 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 14:07:30.787 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-10 14:07:30.791 +05:00 [DBG] The request has an origin header: 'https://localhost:7142'.
+2025-06-10 14:07:30.794 +05:00 [INF] CORS policy execution failed.
+2025-06-10 14:07:30.798 +05:00 [INF] Request origin https://localhost:7142 does not have permission to access the resource.
+2025-06-10 14:07:30.801 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 14:07:30.809 +05:00 [INF] Route matched with {action = "ExecuteTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExecuteTask(Int32) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-10 14:07:30.815 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-10 14:07:30.817 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-10 14:07:30.819 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-10 14:07:30.823 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-10 14:07:30.825 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-10 14:07:30.829 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:07:30.840 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 14:07:30.852 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-06-10 14:07:30.857 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-06-10 14:07:30.861 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:30.867 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:30.871 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-06-10 14:07:30.875 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-06-10 14:07:30.940 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api) - Validation state: "Valid"
+2025-06-10 14:07:38.407 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 14:07:38.436 +05:00 [DBG] Creating DbConnection.
+2025-06-10 14:07:38.438 +05:00 [DBG] Created DbConnection. (1ms).
+2025-06-10 14:07:38.440 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:38.445 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:38.449 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 14:07:38.451 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-06-10 14:07:38.455 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (5ms).
+2025-06-10 14:07:38.458 +05:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 14:07:38.466 +05:00 [INF] Executed DbCommand (8ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 14:07:38.522 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:38.526 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:38.530 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 9ms reading results.
+2025-06-10 14:07:38.535 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:38.537 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (2ms).
+2025-06-10 14:07:44.525 +05:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-06-10 14:07:44.533 +05:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-06-10 14:07:44.565 +05:00 [DBG] The unchanged property 'ScrapingTask.Status' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 14:07:44.581 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:44.589 +05:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-06-10 14:07:44.695 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:44.698 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:44.704 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 14:07:44.707 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-06-10 14:07:44.711 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2025-06-10 14:07:44.715 +05:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 14:07:44.727 +05:00 [INF] Executed DbCommand (13ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 14:07:44.773 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:44.776 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 43ms reading results.
+2025-06-10 14:07:44.780 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:44.783 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (3ms).
+2025-06-10 14:07:44.797 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:44.805 +05:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-06-10 14:07:52.105 +05:00 [INF] Start processing HTTP request GET http://books.toscrape.com/
+2025-06-10 14:07:52.110 +05:00 [INF] Sending HTTP request GET http://books.toscrape.com/
+2025-06-10 14:07:53.374 +05:00 [INF] Received HTTP response headers after 1255.8464ms - 200
+2025-06-10 14:07:53.378 +05:00 [INF] End processing HTTP request after 1275.689ms - 200
+2025-06-10 14:07:56.749 +05:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-06-10 14:07:56.753 +05:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-06-10 14:07:56.755 +05:00 [DBG] The unchanged property 'ScrapingTask.Status' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 14:07:56.758 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:56.761 +05:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-06-10 14:07:56.763 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:56.766 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:56.768 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 14:07:56.770 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-06-10 14:07:56.773 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (4ms).
+2025-06-10 14:07:56.776 +05:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 14:07:56.813 +05:00 [INF] Executed DbCommand (37ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 14:07:56.819 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:56.824 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 4ms reading results.
+2025-06-10 14:07:56.826 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:56.829 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (3ms).
+2025-06-10 14:07:56.834 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 14:07:56.840 +05:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-06-10 14:07:56.983 +05:00 [INF] Executed action method Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api), returned result Microsoft.AspNetCore.Mvc.ObjectResult in 26039.6605ms.
+2025-06-10 14:07:56.986 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-10 14:07:56.990 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-10 14:07:56.992 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-10 14:07:56.994 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-10 14:07:56.996 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-06-10 14:07:56.998 +05:00 [INF] Executing ObjectResult, writing value of type '<>f__AnonymousType1`2[[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e],[System.String, System.Private.CoreLib, Version=8.0.0.0, Culture=neutral, PublicKeyToken=7cec85d7bea7798e]]'.
+2025-06-10 14:07:57.019 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api) in 26191.1757ms
+2025-06-10 14:07:57.023 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 14:07:57.025 +05:00 [ERR] HTTP POST /api/ScrapingTasks/2/execute responded 500 in 26236.5813 ms
+2025-06-10 14:07:57.029 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 14:07:57.032 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 14:07:57.035 +05:00 [DBG] Disposed connection to database '' on server '' (3ms).
+2025-06-10 14:07:57.039 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks/2/execute - 500 null application/json; charset=utf-8 26274.9399ms
+2025-06-10 14:08:37.683 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.

@@ -1,0 +1,98 @@
+2025-06-10 16:32:59.032 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 16:32:59.082 +05:00 [DBG] Creating DbConnection.
+2025-06-10 16:32:59.146 +05:00 [DBG] Created DbConnection. (60ms).
+2025-06-10 16:32:59.153 +05:00 [DBG] Migrating using database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.164 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.485 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.494 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-10 16:32:59.503 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (7ms).
+2025-06-10 16:32:59.506 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (15ms).
+2025-06-10 16:32:59.518 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-10 16:32:59.561 +05:00 [INF] Executed DbCommand (41ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-10 16:32:59.563 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.576 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (6ms).
+2025-06-10 16:32:59.580 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-10 16:32:59.581 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-06-10 16:32:59.581 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-06-10 16:32:59.581 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.583 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.584 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-10 16:32:59.616 +05:00 [INF] Executed DbCommand (32ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-10 16:32:59.617 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.617 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (0ms).
+2025-06-10 16:32:59.618 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.619 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.619 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-10 16:32:59.619 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-10 16:32:59.619 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-10 16:32:59.619 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-10 16:32:59.622 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT 1
+2025-06-10 16:32:59.623 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.623 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (0ms).
+2025-06-10 16:32:59.623 +05:00 [DBG] Creating DbCommand for 'ExecuteScalar'.
+2025-06-10 16:32:59.624 +05:00 [DBG] Created DbCommand for 'ExecuteScalar' (0ms).
+2025-06-10 16:32:59.624 +05:00 [DBG] Initialized DbCommand for 'ExecuteScalar' (0ms).
+2025-06-10 16:32:59.624 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.624 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.624 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-10 16:32:59.625 +05:00 [INF] Executed DbCommand (1ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT OBJECT_ID(N'[__EFMigrationsHistory]');
+2025-06-10 16:32:59.625 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.625 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (0ms).
+2025-06-10 16:32:59.648 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.648 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.649 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 16:32:59.649 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (0ms).
+2025-06-10 16:32:59.649 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (0ms).
+2025-06-10 16:32:59.650 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-10 16:32:59.659 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [MigrationId], [ProductVersion]
+FROM [__EFMigrationsHistory]
+ORDER BY [MigrationId];
+2025-06-10 16:32:59.662 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.664 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 2ms reading results.
+2025-06-10 16:32:59.664 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.664 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (0ms).
+2025-06-10 16:32:59.680 +05:00 [INF] Applying migration '20250610113239_AddImageUrlToScrapedData'.
+2025-06-10 16:32:59.728 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.729 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.731 +05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-06-10 16:32:59.740 +05:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-06-10 16:32:59.742 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-10 16:32:59.742 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-10 16:32:59.744 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (1ms).
+2025-06-10 16:32:59.744 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [ScrapedData] ADD [ImageUrl] nvarchar(max) NULL;
+2025-06-10 16:32:59.769 +05:00 [INF] Executed DbCommand (25ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+ALTER TABLE [ScrapedData] ADD [ImageUrl] nvarchar(max) NULL;
+2025-06-10 16:32:59.769 +05:00 [DBG] Creating DbCommand for 'ExecuteNonQuery'.
+2025-06-10 16:32:59.769 +05:00 [DBG] Created DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-10 16:32:59.770 +05:00 [DBG] Initialized DbCommand for 'ExecuteNonQuery' (0ms).
+2025-06-10 16:32:59.770 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250610113239_AddImageUrlToScrapedData', N'8.0.16');
+2025-06-10 16:32:59.772 +05:00 [INF] Executed DbCommand (3ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+INSERT INTO [__EFMigrationsHistory] ([MigrationId], [ProductVersion])
+VALUES (N'20250610113239_AddImageUrlToScrapedData', N'8.0.16');
+2025-06-10 16:32:59.774 +05:00 [DBG] Committing transaction.
+2025-06-10 16:32:59.779 +05:00 [DBG] Committed transaction.
+2025-06-10 16:32:59.781 +05:00 [DBG] Disposing transaction.
+2025-06-10 16:32:59.781 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.781 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (0ms).
+2025-06-10 16:32:59.783 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 16:32:59.786 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:32:59.788 +05:00 [DBG] Disposed connection to database '' on server '' (1ms).
+2025-06-10 18:59:40.947 +05:00 [INF] Validating DI for IScraperClient
+2025-06-10 18:59:41.194 +05:00 [INF] Validating DI for IScrapingService
+2025-06-10 18:59:41.789 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-10 18:59:42.014 +05:00 [INF] DI validation successful

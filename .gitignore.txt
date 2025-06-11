@@ -1,0 +1,19 @@
+# .NET
+bin/
+obj/
+*.user
+*.suo
+*.userprefs
+*.csproj.user
+appsettings.Development.json
+
+# Logs
+logs/
+
+# IDE
+.vs/
+.vscode/
+.idea/
+
+# NuGet
+packages/

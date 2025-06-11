@@ -1,0 +1,478 @@
+2025-06-04 17:35:11.749 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-04 17:35:11.805 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-04 17:35:12.040 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 17:35:12.042 +05:00 [INF] Hosting environment: Development
+2025-06-04 17:35:12.044 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-04 17:35:14.887 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger - null null
+2025-06-04 17:35:15.444 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger - 301 0 null 569.9666ms
+2025-06-04 17:35:15.474 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-04 17:35:15.728 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 254.2327ms
+2025-06-04 17:35:15.877 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - null null
+2025-06-04 17:35:15.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - null null
+2025-06-04 17:35:15.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-04 17:35:15.878 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - null null
+2025-06-04 17:35:15.899 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 20.368ms
+2025-06-04 17:35:15.947 +05:00 [INF] Sending file. Request path: '/swagger-ui-standalone-preset.js'. Physical path: 'N/A'
+2025-06-04 17:35:15.947 +05:00 [INF] Sending file. Request path: '/swagger-ui.css'. Physical path: 'N/A'
+2025-06-04 17:35:16.008 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-standalone-preset.js - 200 230280 text/javascript 130.1355ms
+2025-06-04 17:35:16.011 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui.css - 200 152034 text/css 133.6029ms
+2025-06-04 17:35:16.308 +05:00 [INF] Sending file. Request path: '/swagger-ui-bundle.js'. Physical path: 'N/A'
+2025-06-04 17:35:16.323 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/swagger-ui-bundle.js - 200 1456926 text/javascript 445.6924ms
+2025-06-04 17:35:16.462 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-04 17:35:16.574 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 111.759ms
+2025-06-04 17:35:16.747 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - null null
+2025-06-04 17:35:16.755 +05:00 [INF] Sending file. Request path: '/favicon-32x32.png'. Physical path: 'N/A'
+2025-06-04 17:35:16.758 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/favicon-32x32.png - 200 628 image/png 11.1195ms
+2025-06-04 17:35:17.920 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-04 17:35:18.831 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 910.3934ms
+2025-06-04 17:35:26.954 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 17:35:26.971 +05:00 [INF] CORS policy execution successful.
+2025-06-04 17:35:26.979 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 11.7920 ms
+2025-06-04 17:35:26.984 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 30.0494ms
+2025-06-04 17:35:26.993 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 124
+2025-06-04 17:35:27.004 +05:00 [INF] CORS policy execution successful.
+2025-06-04 17:35:27.018 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 17:35:27.084 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 17:35:27.727 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 625.9635ms
+2025-06-04 17:35:27.739 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 17:35:27.868 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 17:35:28.030 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 1027.5762 ms
+2025-06-04 17:35:28.037 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 1044.0594ms
+2025-06-04 17:36:06.255 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 17:36:06.261 +05:00 [INF] CORS policy execution successful.
+2025-06-04 17:36:06.262 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-04 17:36:06.273 +05:00 [INF] Route matched with {action = "GetAllTasks", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTasks() on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 17:36:06.301 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) in 23.5235ms
+2025-06-04 17:36:06.305 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-04 17:36:06.403 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 17:36:06.430 +05:00 [ERR] HTTP GET /api/ScrapingTasks responded 500 in 169.6090 ms
+2025-06-04 17:36:06.433 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/ScrapingTasks - 500 null application/json 179.1337ms
+2025-06-04 17:36:18.390 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 17:36:18.401 +05:00 [INF] CORS policy execution successful.
+2025-06-04 17:36:18.403 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 1.9410 ms
+2025-06-04 17:36:18.407 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 17.1488ms
+2025-06-04 17:36:18.413 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 124
+2025-06-04 17:36:18.419 +05:00 [INF] CORS policy execution successful.
+2025-06-04 17:36:18.421 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 17:36:18.424 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 17:36:18.433 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 3.9389ms
+2025-06-04 17:36:18.437 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 17:36:18.505 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 17:36:18.535 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 116.4471 ms
+2025-06-04 17:36:18.539 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 126.678ms
+2025-06-04 20:10:53.133 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-04 20:10:53.189 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-04 20:10:53.281 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 20:10:53.283 +05:00 [INF] Hosting environment: Development
+2025-06-04 20:10:53.284 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-04 20:10:54.268 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-04 20:10:54.892 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 635.9403ms
+2025-06-04 20:10:55.046 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-04 20:10:55.074 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 28.5315ms
+2025-06-04 20:10:55.708 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-04 20:10:55.795 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 87.192ms
+2025-06-04 20:10:57.034 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-04 20:10:57.073 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 39.2032ms
+2025-06-04 20:11:35.085 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 20:11:35.126 +05:00 [INF] CORS policy execution successful.
+2025-06-04 20:11:35.132 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-04 20:11:35.159 +05:00 [INF] Route matched with {action = "GetAllTasks", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTasks() on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:11:35.495 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) in 330.1683ms
+2025-06-04 20:11:35.498 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-04 20:11:35.583 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:11:35.691 +05:00 [ERR] HTTP GET /api/ScrapingTasks responded 500 in 572.4453 ms
+2025-06-04 20:11:35.696 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/ScrapingTasks - 500 null application/json 610.8962ms
+2025-06-04 20:11:48.997 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 20:11:49.009 +05:00 [INF] CORS policy execution successful.
+2025-06-04 20:11:49.011 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 3.0909 ms
+2025-06-04 20:11:49.014 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 17.1968ms
+2025-06-04 20:11:49.024 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 66
+2025-06-04 20:11:49.028 +05:00 [INF] CORS policy execution successful.
+2025-06-04 20:11:49.030 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:11:49.060 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:11:49.077 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 13.3057ms
+2025-06-04 20:11:49.079 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:11:49.126 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:11:49.147 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 120.0132 ms
+2025-06-04 20:11:49.150 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 126.767ms
+2025-06-04 20:12:06.534 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-04 20:12:06.539 +05:00 [INF] CORS policy execution successful.
+2025-06-04 20:12:06.540 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 1.1651 ms
+2025-06-04 20:12:06.543 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 8.3176ms
+2025-06-04 20:12:06.554 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 66
+2025-06-04 20:12:06.560 +05:00 [INF] CORS policy execution successful.
+2025-06-04 20:12:06.561 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:12:06.565 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:12:06.575 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 3.4608ms
+2025-06-04 20:12:06.577 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:12:06.636 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:12:06.664 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 103.7089 ms
+2025-06-04 20:12:06.667 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 112.6957ms
+2025-06-04 20:13:56.184 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - application/json 216
+2025-06-04 20:13:56.201 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:13:56.203 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:13:56.206 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 1.2718ms
+2025-06-04 20:13:56.208 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:13:56.282 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:13:56.310 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 108.1788 ms
+2025-06-04 20:13:56.313 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 128.8425ms
+2025-06-04 20:14:22.931 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7142/ScrapingTasks - application/json 216
+2025-06-04 20:14:22.935 +05:00 [INF] HTTP POST /ScrapingTasks responded 404 in 0.1291 ms
+2025-06-04 20:14:22.937 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7142/ScrapingTasks - 404 0 null 6.0293ms
+2025-06-04 20:14:22.942 +05:00 [INF] Request reached the end of the middleware pipeline without being handled by application code. Request path: POST https://localhost:7142/ScrapingTasks, Response status code: 404
+2025-06-04 20:14:31.535 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - application/json 216
+2025-06-04 20:14:31.546 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:14:31.548 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:14:31.553 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 1.2219ms
+2025-06-04 20:14:31.557 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:14:31.623 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:14:31.647 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 101.1525 ms
+2025-06-04 20:14:31.650 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 114.8897ms
+2025-06-04 20:14:56.243 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks/ScrapingTasks - application/json 216
+2025-06-04 20:14:56.247 +05:00 [INF] Executing endpoint '405 HTTP Method Not Supported'
+2025-06-04 20:14:56.248 +05:00 [INF] Executed endpoint '405 HTTP Method Not Supported'
+2025-06-04 20:14:56.250 +05:00 [INF] HTTP POST /api/ScrapingTasks/ScrapingTasks responded 405 in 2.6926 ms
+2025-06-04 20:14:56.254 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks/ScrapingTasks - 405 0 null 10.5946ms
+2025-06-04 20:15:02.180 +05:00 [INF] Request starting HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - application/json 216
+2025-06-04 20:15:02.187 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:15:02.189 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:15:02.193 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 1.0451ms
+2025-06-04 20:15:02.197 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:15:02.257 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:15:02.281 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 94.4059 ms
+2025-06-04 20:15:02.288 +05:00 [INF] Request finished HTTP/1.1 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 108.0727ms
+2025-06-04 20:15:13.964 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 209
+2025-06-04 20:15:13.970 +05:00 [INF] CORS policy execution failed.
+2025-06-04 20:15:13.973 +05:00 [INF] Request origin https://localhost:7142 does not have permission to access the resource.
+2025-06-04 20:15:13.978 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:15:13.991 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:15:13.995 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 0.9846ms
+2025-06-04 20:15:13.998 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:15:14.037 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method20(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:15:14.055 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 85.0767 ms
+2025-06-04 20:15:14.057 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 92.7398ms
+2025-06-04 20:27:49.042 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-04 20:27:49.118 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-04 20:27:49.395 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-04 20:27:49.398 +05:00 [INF] Hosting environment: Development
+2025-06-04 20:27:49.399 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-04 20:27:50.288 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-04 20:27:50.942 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 664.5007ms
+2025-06-04 20:27:51.188 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-04 20:27:51.377 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 189.4711ms
+2025-06-04 20:27:51.807 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-04 20:27:51.924 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 117.8682ms
+2025-06-04 20:27:53.039 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-04 20:27:53.425 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 385.8737ms
+2025-06-04 20:28:11.040 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 209
+2025-06-04 20:28:11.053 +05:00 [INF] CORS policy execution failed.
+2025-06-04 20:28:11.055 +05:00 [INF] Request origin https://localhost:7142 does not have permission to access the resource.
+2025-06-04 20:28:11.060 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:28:11.097 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-04 20:28:11.523 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 418.8835ms
+2025-06-04 20:28:11.526 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-04 20:28:11.612 +05:00 [ERR] Unhandled exception occurred.
+System.InvalidOperationException: A suitable constructor for type 'Extractify.Infrastructure.Scraping.ScraperClient' could not be located. Ensure the type is concrete and all parameters of a public constructor are either registered as services or passed as arguments. Also ensure no extraneous arguments are provided.
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.FindApplicableConstructor(Type instanceType, Type[] argumentTypes, ConstructorInfo& matchingConstructor, Nullable`1[]& matchingParameterMap)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactoryInternal(Type instanceType, Type[] argumentTypes, ParameterExpression& provider, ParameterExpression& argumentArray, Expression& factoryExpressionBody)
+   at Microsoft.Extensions.DependencyInjection.ActivatorUtilities.CreateFactory(Type instanceType, Type[] argumentTypes)
+   at System.Threading.LazyInitializer.EnsureInitializedCore[T](T& target, Boolean& initialized, Object& syncLock, Func`1 valueFactory)
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.Cache.get_Activator()
+   at Microsoft.Extensions.Http.DefaultTypedHttpClientFactory`1.CreateClient(HttpClient httpClient)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitDisposeCache(ServiceCallSite transientCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitConstructor(ConstructorCallSite constructorCallSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSiteMain(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitCache(ServiceCallSite callSite, RuntimeResolverContext context, ServiceProviderEngineScope serviceProviderEngine, RuntimeResolverLock lockType)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.VisitScopeCache(ServiceCallSite callSite, RuntimeResolverContext context)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteVisitor`2.VisitCallSite(ServiceCallSite callSite, TArgument argument)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.CallSiteRuntimeResolver.Resolve(ServiceCallSite callSite, ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.DynamicServiceProviderEngine.<>c__DisplayClass2_0.<RealizeService>b__0(ServiceProviderEngineScope scope)
+   at Microsoft.Extensions.DependencyInjection.ServiceProvider.GetService(ServiceIdentifier serviceIdentifier, ServiceProviderEngineScope serviceProviderEngineScope)
+   at Microsoft.Extensions.DependencyInjection.ServiceLookup.ServiceProviderEngineScope.GetService(Type serviceType)
+   at lambda_method10(Closure, IServiceProvider, Object[])
+   at Microsoft.AspNetCore.Mvc.Controllers.ControllerFactoryProvider.<>c__DisplayClass6_0.<CreateControllerFactory>g__CreateController|0(ControllerContext controllerContext)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.Next(State& next, Scope& scope, Object& state, Boolean& isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ControllerActionInvoker.InvokeInnerFilterAsync()
+--- End of stack trace from previous location ---
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeFilterPipelineAsync>g__Awaited|20_0(ResourceInvoker invoker, Task lastTask, State next, Scope scope, Object state, Boolean isCompleted)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Mvc.Infrastructure.ResourceInvoker.<InvokeAsync>g__Logged|17_1(ResourceInvoker invoker)
+   at Microsoft.AspNetCore.Routing.EndpointMiddleware.<Invoke>g__AwaitRequestTask|7_0(Endpoint endpoint, Task requestTask, ILogger logger)
+   at Microsoft.AspNetCore.Authorization.AuthorizationMiddleware.Invoke(HttpContext context)
+   at Extractify.Api.Middleware.ExceptionMiddleware.InvokeAsync(HttpContext context) in F:\codeFirst\Extractify\Extractify\Middleware\ExceptionMiddleware.cs:line 26
+2025-06-04 20:28:11.741 +05:00 [ERR] HTTP POST /api/ScrapingTasks responded 500 in 688.6663 ms
+2025-06-04 20:28:11.749 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 500 null application/json 708.6699ms

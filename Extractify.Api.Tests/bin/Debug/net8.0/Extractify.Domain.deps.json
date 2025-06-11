@@ -1,0 +1,23 @@
+{
+  "runtimeTarget": {
+    "name": ".NETCoreApp,Version=v8.0",
+    "signature": ""
+  },
+  "compilationOptions": {},
+  "targets": {
+    ".NETCoreApp,Version=v8.0": {
+      "Extractify.Domain/1.0.0": {
+        "runtime": {
+          "Extractify.Domain.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "Extractify.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    }
+  }
+}

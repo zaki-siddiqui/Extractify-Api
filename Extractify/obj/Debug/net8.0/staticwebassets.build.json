@@ -1,0 +1,12 @@
+{
+  "Version": 1,
+  "Hash": "zpUmwbfS7Djukl2lZG3VAj8OiRTmXPnomfMmHpE7/fc=",
+  "Source": "Extractify.Api",
+  "BasePath": "_content/Extractify.Api",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [],
+  "Assets": [],
+  "Endpoints": []
+}

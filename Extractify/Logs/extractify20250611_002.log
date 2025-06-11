@@ -1,0 +1,142 @@
+2025-06-11 16:39:56.732 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-11 16:39:56.810 +05:00 [DBG] Hosting starting
+2025-06-11 16:39:57.052 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-11 16:39:57.054 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-11 16:39:57.055 +05:00 [DBG] Loaded hosting startup assembly Extractify.Api
+2025-06-11 16:39:57.056 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-11 16:39:57.057 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-11 16:39:57.058 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-11 16:39:57.146 +05:00 [DBG] Connection id "0HND8RIOF5RI5" received FIN.
+2025-06-11 16:39:57.156 +05:00 [DBG] Connection id "0HND8RIOF5RI5" accepted.
+2025-06-11 16:39:57.159 +05:00 [DBG] Connection id "0HND8RIOF5RI5" started.
+2025-06-11 16:39:57.162 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-11 16:39:57.181 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-11 16:39:57.194 +05:00 [INF] Hosting environment: Development
+2025-06-11 16:39:57.237 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-11 16:39:57.239 +05:00 [DBG] Hosting started
+2025-06-11 16:39:57.251 +05:00 [DBG] Connection id "0HND8RIOF5RI5" stopped.
+2025-06-11 16:39:57.284 +05:00 [DBG] Connection id "0HND8RIOF5RI5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-11 16:39:57.691 +05:00 [DBG] Connection id "0HND8RIOF5RI6" accepted.
+2025-06-11 16:39:57.755 +05:00 [DBG] Connection id "0HND8RIOF5RI6" started.
+2025-06-11 16:39:57.839 +05:00 [DBG] Connection 0HND8RIOF5RI6 established using the following protocol: "Tls12"
+2025-06-11 16:39:58.016 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-11 16:39:58.408 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-11 16:39:58.448 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-11 16:39:58.450 +05:00 [DBG] Request did not match any endpoints
+2025-06-11 16:39:58.588 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-11 16:39:58.592 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-11 16:39:58.632 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-11 16:39:58.634 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-11 16:39:58.640 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 633.8466ms
+2025-06-11 16:39:58.783 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-11 16:39:58.859 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 84.2362ms
+2025-06-11 16:39:59.333 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-11 16:39:59.424 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 90.3993ms
+2025-06-11 16:40:00.518 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-11 16:40:00.523 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-11 16:40:00.525 +05:00 [DBG] Request did not match any endpoints
+2025-06-11 16:40:00.651 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 141.3299ms
+2025-06-11 16:40:11.990 +05:00 [DBG] Connection id "0HND8RIOF5RI7" accepted.
+2025-06-11 16:40:11.993 +05:00 [DBG] Connection id "0HND8RIOF5RI7" started.
+2025-06-11 16:40:12.014 +05:00 [DBG] Connection 0HND8RIOF5RI7 established using the following protocol: "Tls12"
+2025-06-11 16:40:12.028 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-11 16:40:12.039 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:12.043 +05:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-06-11 16:40:12.053 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-11 16:40:12.064 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-06-11 16:40:12.068 +05:00 [INF] CORS policy execution successful.
+2025-06-11 16:40:12.071 +05:00 [DBG] The request is a preflight request.
+2025-06-11 16:40:12.079 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 18.2237 ms
+2025-06-11 16:40:12.085 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 57.1532ms
+2025-06-11 16:40:12.095 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 90
+2025-06-11 16:40:12.101 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:12.109 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)' with route pattern 'api/ScrapingTasks' is valid for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:12.116 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:12.119 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-11 16:40:12.121 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-06-11 16:40:12.123 +05:00 [INF] CORS policy execution successful.
+2025-06-11 16:40:12.130 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:12.193 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-11 16:40:12.200 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-11 16:40:12.204 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-11 16:40:12.209 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-11 16:40:12.214 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-11 16:40:12.217 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-11 16:40:12.225 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:40:12.251 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:40:12.278 +05:00 [DBG] Attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' ...
+2025-06-11 16:40:12.286 +05:00 [DBG] Attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' using the name '' in request data ...
+2025-06-11 16:40:12.292 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-06-11 16:40:12.315 +05:00 [DBG] Connection id "0HND8RIOF5RI7", Request id "0HND8RIOF5RI7:00000003": started reading request body.
+2025-06-11 16:40:12.319 +05:00 [DBG] Connection id "0HND8RIOF5RI7", Request id "0HND8RIOF5RI7:00000003": done reading request body.
+2025-06-11 16:40:12.329 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'Extractify.Application.DTOs.ScrapingTaskDto'
+2025-06-11 16:40:12.332 +05:00 [DBG] Done attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:12.336 +05:00 [DBG] Done attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:12.339 +05:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' ...
+2025-06-11 16:40:12.361 +05:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:12.368 +05:00 [DBG] The request has model state errors, returning an error response.
+2025-06-11 16:40:12.372 +05:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-06-11 16:40:12.382 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-11 16:40:12.392 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-11 16:40:12.396 +05:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-06-11 16:40:12.410 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-06-11 16:40:12.416 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-11 16:40:12.454 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 227.2957ms
+2025-06-11 16:40:12.459 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:12.462 +05:00 [INF] HTTP POST /api/ScrapingTasks responded 400 in 341.3808 ms
+2025-06-11 16:40:12.467 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 400 null application/problem+json; charset=utf-8 372.1804ms
+2025-06-11 16:40:19.863 +05:00 [INF] Request starting HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - null null
+2025-06-11 16:40:19.868 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:19.870 +05:00 [DBG] Request matched endpoint '405 HTTP Method Not Supported'
+2025-06-11 16:40:19.874 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-11 16:40:19.877 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-06-11 16:40:19.880 +05:00 [INF] CORS policy execution successful.
+2025-06-11 16:40:19.882 +05:00 [DBG] The request is a preflight request.
+2025-06-11 16:40:19.884 +05:00 [INF] HTTP OPTIONS /api/ScrapingTasks responded 204 in 7.5950 ms
+2025-06-11 16:40:19.888 +05:00 [INF] Request finished HTTP/2 OPTIONS https://localhost:7142/api/ScrapingTasks - 204 null null 25.3847ms
+2025-06-11 16:40:19.904 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks - application/json 90
+2025-06-11 16:40:19.914 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:19.917 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)' with route pattern 'api/ScrapingTasks' is valid for the request path '/api/ScrapingTasks'
+2025-06-11 16:40:19.923 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:19.933 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-11 16:40:19.935 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-06-11 16:40:19.938 +05:00 [INF] CORS policy execution successful.
+2025-06-11 16:40:19.940 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:19.944 +05:00 [INF] Route matched with {action = "CreateTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] CreateTask(Extractify.Application.DTOs.ScrapingTaskDto) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-11 16:40:19.948 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-11 16:40:19.952 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-11 16:40:19.956 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-11 16:40:19.962 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-11 16:40:19.966 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-11 16:40:19.971 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:40:19.977 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:40:19.981 +05:00 [DBG] Attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' ...
+2025-06-11 16:40:19.985 +05:00 [DBG] Attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' using the name '' in request data ...
+2025-06-11 16:40:19.989 +05:00 [DBG] Selected input formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonInputFormatter' for content type 'application/json'.
+2025-06-11 16:40:19.994 +05:00 [DBG] Connection id "0HND8RIOF5RI7", Request id "0HND8RIOF5RI7:00000007": started reading request body.
+2025-06-11 16:40:19.998 +05:00 [DBG] Connection id "0HND8RIOF5RI7", Request id "0HND8RIOF5RI7:00000007": done reading request body.
+2025-06-11 16:40:20.003 +05:00 [DBG] JSON input formatter succeeded, deserializing to type 'Extractify.Application.DTOs.ScrapingTaskDto'
+2025-06-11 16:40:20.010 +05:00 [DBG] Done attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:20.032 +05:00 [DBG] Done attempting to bind parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:20.036 +05:00 [DBG] Attempting to validate the bound parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto' ...
+2025-06-11 16:40:20.043 +05:00 [DBG] Done attempting to validate the bound parameter 'request' of type 'Extractify.Application.DTOs.ScrapingTaskDto'.
+2025-06-11 16:40:20.050 +05:00 [DBG] The request has model state errors, returning an error response.
+2025-06-11 16:40:20.053 +05:00 [DBG] Request was short circuited at action filter 'Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter'.
+2025-06-11 16:40:20.057 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-11 16:40:20.063 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-11 16:40:20.066 +05:00 [DBG] Attempting to select the first output formatter in the output formatters list which supports a content type from the explicitly specified content types '["application/problem+json","application/problem+xml","application/problem+json","application/problem+xml"]'.
+2025-06-11 16:40:20.077 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/problem+json' to write the response.
+2025-06-11 16:40:20.082 +05:00 [INF] Executing BadRequestObjectResult, writing value of type 'Microsoft.AspNetCore.Mvc.ValidationProblemDetails'.
+2025-06-11 16:40:20.087 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api) in 116.2313ms
+2025-06-11 16:40:20.092 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.CreateTask (Extractify.Api)'
+2025-06-11 16:40:20.095 +05:00 [INF] HTTP POST /api/ScrapingTasks responded 400 in 159.4419 ms
+2025-06-11 16:40:20.101 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks - 400 null application/problem+json; charset=utf-8 197.0887ms
+2025-06-11 16:45:54.688 +05:00 [INF] Validating DI for IScraperClient
+2025-06-11 16:45:54.814 +05:00 [INF] Validating DI for IScrapingService
+2025-06-11 16:45:55.063 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-11 16:45:55.320 +05:00 [INF] DI validation successful

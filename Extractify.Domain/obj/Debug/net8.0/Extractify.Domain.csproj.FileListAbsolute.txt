@@ -1,0 +1,11 @@
+F:\codeFirst\Extractify\Extractify.Domain\bin\Debug\net8.0\Extractify.Domain.deps.json
+F:\codeFirst\Extractify\Extractify.Domain\bin\Debug\net8.0\Extractify.Domain.dll
+F:\codeFirst\Extractify\Extractify.Domain\bin\Debug\net8.0\Extractify.Domain.pdb
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.GeneratedMSBuildEditorConfig.editorconfig
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.AssemblyInfoInputs.cache
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.AssemblyInfo.cs
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.csproj.CoreCompileInputs.cache
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.dll
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\refint\Extractify.Domain.dll
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\Extractify.Domain.pdb
+F:\codeFirst\Extractify\Extractify.Domain\obj\Debug\net8.0\ref\Extractify.Domain.dll

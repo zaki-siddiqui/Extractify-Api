@@ -1,0 +1,343 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\codeFirst\\Extractify\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|f:\\codefirst\\extractify\\extractify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|solutionrelative:extractify\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\scraping\\scraperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\scraping\\scraperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|f:\\codefirst\\extractify\\extractify.application\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|solutionrelative:extractify.application\\services\\scrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|f:\\codefirst\\extractify\\extractify\\controllers\\scrapingtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|solutionrelative:extractify\\controllers\\scrapingtaskscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|f:\\codefirst\\extractify\\extractify.domain\\entities\\scrapingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|solutionrelative:extractify.domain\\entities\\scrapingtask.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|f:\\codefirst\\extractify\\extractify.application\\dtos\\scrapingtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|solutionrelative:extractify.application\\dtos\\scrapingtaskdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\scraping\\iscraperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\scraping\\iscraperclient.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\models\\scrapeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\models\\scrapeditem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|f:\\codefirst\\extractify\\extractify.application\\interfaces\\iscrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|solutionrelative:extractify.application\\interfaces\\iscrapingservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|f:\\codefirst\\extractify\\extractify.application\\dtos\\scrapeddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|solutionrelative:extractify.application\\dtos\\scrapeddatadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|f:\\codefirst\\extractify\\extractify.domain\\entities\\scrapeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|solutionrelative:extractify.domain\\entities\\scrapeddata.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\repositories\\genericrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\repositories\\unitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|f:\\codefirst\\extractify\\extractify.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{BF0EE874-4A06-42D9-99B1-D0689F798A69}|Extractify.Infrastructure\\Extractify.Infrastructure.csproj|solutionrelative:extractify.infrastructure\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|f:\\codefirst\\extractify\\extractify.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|solutionrelative:extractify.domain\\interfaces\\irepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|f:\\codefirst\\extractify\\extractify.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{64A1113C-C7BC-465C-AC9F-F34D3D932B8B}|Extractify.Domain\\Extractify.Domain.csproj|solutionrelative:extractify.domain\\interfaces\\iunitofwork.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|f:\\codefirst\\extractify\\extractify.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A9EFFAB8-A2DE-4AC4-AEB4-6998986CC8C8}|Extractify.Application\\Extractify.Application.csproj|solutionrelative:extractify.application\\mappings\\mappingprofile.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|f:\\codefirst\\extractify\\extractify\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|solutionrelative:extractify\\middleware\\exceptionmiddleware.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|f:\\codefirst\\extractify\\extractify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{02E4680B-89D0-454E-A394-49B07D3E50B7}|Extractify\\Extractify.Api.csproj|solutionrelative:extractify\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 7,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ScrapedItem.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Models\\ScrapedItem.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Models\\ScrapedItem.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Models\\ScrapedItem.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Models\\ScrapedItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-11T11:16:13.048Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ScrapingTaskDto.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Application\\DTOs\\ScrapingTaskDto.cs",
+              "RelativeDocumentMoniker": "Extractify.Application\\DTOs\\ScrapingTaskDto.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Application\\DTOs\\ScrapingTaskDto.cs",
+              "RelativeToolTip": "Extractify.Application\\DTOs\\ScrapingTaskDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-10T11:57:48.106Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "IScraperClient.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Scraping\\IScraperClient.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Scraping\\IScraperClient.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Scraping\\IScraperClient.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Scraping\\IScraperClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAsAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-05T13:58:20.691Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "ExceptionMiddleware.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeDocumentMoniker": "Extractify\\Middleware\\ExceptionMiddleware.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify\\Middleware\\ExceptionMiddleware.cs",
+              "RelativeToolTip": "Extractify\\Middleware\\ExceptionMiddleware.cs",
+              "ViewState": "AgIAAAcAAAAAAAAAAAAwwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:54:52.927Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "ScrapedDataDto.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Application\\DTOs\\ScrapedDataDto.cs",
+              "RelativeDocumentMoniker": "Extractify.Application\\DTOs\\ScrapedDataDto.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Application\\DTOs\\ScrapedDataDto.cs",
+              "RelativeToolTip": "Extractify.Application\\DTOs\\ScrapedDataDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAvAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:26:55.009Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "MappingProfile.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Application\\Mappings\\MappingProfile.cs",
+              "RelativeDocumentMoniker": "Extractify.Application\\Mappings\\MappingProfile.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Application\\Mappings\\MappingProfile.cs",
+              "RelativeToolTip": "Extractify.Application\\Mappings\\MappingProfile.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAIBJwBQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-04T11:18:35.132Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify\\appsettings.json",
+              "RelativeDocumentMoniker": "Extractify\\appsettings.json",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify\\appsettings.json",
+              "RelativeToolTip": "Extractify\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-06-02T13:37:17.677Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify\\Program.cs",
+              "RelativeDocumentMoniker": "Extractify\\Program.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify\\Program.cs",
+              "RelativeToolTip": "Extractify\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAoAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:29:47.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ScrapingTasksController.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify\\Controllers\\ScrapingTasksController.cs",
+              "RelativeDocumentMoniker": "Extractify\\Controllers\\ScrapingTasksController.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify\\Controllers\\ScrapingTasksController.cs",
+              "RelativeToolTip": "Extractify\\Controllers\\ScrapingTasksController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAqwFMAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T13:11:18.224Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "ScrapingService.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Application\\Services\\ScrapingService.cs",
+              "RelativeDocumentMoniker": "Extractify.Application\\Services\\ScrapingService.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Application\\Services\\ScrapingService.cs",
+              "RelativeToolTip": "Extractify.Application\\Services\\ScrapingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:16:29.233Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IScrapingService.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Application\\Interfaces\\IScrapingService.cs",
+              "RelativeDocumentMoniker": "Extractify.Application\\Interfaces\\IScrapingService.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Application\\Interfaces\\IScrapingService.cs",
+              "RelativeToolTip": "Extractify.Application\\Interfaces\\IScrapingService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:15:01.446Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ScraperClient.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Scraping\\ScraperClient.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Scraping\\ScraperClient.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Scraping\\ScraperClient.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Scraping\\ScraperClient.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T12:04:49.953Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "UnitOfWork.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Repositories\\UnitOfWork.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAxwCAAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:59:31.211Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "GenericRepository.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Repositories\\GenericRepository.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Repositories\\GenericRepository.cs",
+              "ViewState": "AgIAAA4AAAAAAAAAAAA9wCAAAAAMAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T11:23:34.474Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "ApplicationDbContext.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeDocumentMoniker": "Extractify.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "RelativeToolTip": "Extractify.Infrastructure\\Data\\ApplicationDbContext.cs",
+              "ViewState": "AgIAAAoAAAAAAAAAAAA6wBoAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:58:24.432Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "IUnitOfWork.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeDocumentMoniker": "Extractify.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Interfaces\\IUnitOfWork.cs",
+              "RelativeToolTip": "Extractify.Domain\\Interfaces\\IUnitOfWork.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAXAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:56:30.721Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "IRepository.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Interfaces\\IRepository.cs",
+              "RelativeDocumentMoniker": "Extractify.Domain\\Interfaces\\IRepository.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Interfaces\\IRepository.cs",
+              "RelativeToolTip": "Extractify.Domain\\Interfaces\\IRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:54:45.97Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "ScrapedData.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Entities\\ScrapedData.cs",
+              "RelativeDocumentMoniker": "Extractify.Domain\\Entities\\ScrapedData.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Entities\\ScrapedData.cs",
+              "RelativeToolTip": "Extractify.Domain\\Entities\\ScrapedData.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:53:49.448Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ScrapingTask.cs",
+              "DocumentMoniker": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Entities\\ScrapingTask.cs",
+              "RelativeDocumentMoniker": "Extractify.Domain\\Entities\\ScrapingTask.cs",
+              "ToolTip": "F:\\codeFirst\\Extractify\\Extractify.Domain\\Entities\\ScrapingTask.cs",
+              "RelativeToolTip": "Extractify.Domain\\Entities\\ScrapingTask.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-02T10:53:10.433Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

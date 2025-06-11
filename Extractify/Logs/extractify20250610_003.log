@@ -1,0 +1,412 @@
+2025-06-10 16:16:06.229 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-10 16:16:06.396 +05:00 [DBG] Hosting starting
+2025-06-10 16:16:06.842 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-10 16:16:06.853 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-10 16:16:06.859 +05:00 [DBG] Loaded hosting startup assembly Extractify.Api
+2025-06-10 16:16:06.864 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-10 16:16:06.865 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-10 16:16:06.867 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-10 16:16:07.009 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-10 16:16:07.023 +05:00 [INF] Hosting environment: Development
+2025-06-10 16:16:07.025 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-10 16:16:07.027 +05:00 [DBG] Hosting started
+2025-06-10 16:16:07.177 +05:00 [DBG] Connection id "0HND820P3A9A4" accepted.
+2025-06-10 16:16:07.185 +05:00 [DBG] Connection id "0HND820P3A9A4" started.
+2025-06-10 16:16:07.217 +05:00 [DBG] Connection id "0HND820P3A9A4" received FIN.
+2025-06-10 16:16:07.685 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-10 16:16:07.748 +05:00 [DBG] Connection id "0HND820P3A9A4" stopped.
+2025-06-10 16:16:07.754 +05:00 [DBG] Connection id "0HND820P3A9A4" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-10 16:16:08.116 +05:00 [DBG] Connection id "0HND820P3A9A5" accepted.
+2025-06-10 16:16:08.128 +05:00 [DBG] Connection id "0HND820P3A9A5" started.
+2025-06-10 16:16:08.279 +05:00 [DBG] Connection 0HND820P3A9A5 established using the following protocol: "Tls12"
+2025-06-10 16:16:08.452 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-10 16:16:08.827 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-10 16:16:08.865 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-10 16:16:08.868 +05:00 [DBG] Request did not match any endpoints
+2025-06-10 16:16:08.996 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-10 16:16:09.000 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-10 16:16:09.039 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-10 16:16:09.042 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-10 16:16:09.048 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 607.2801ms
+2025-06-10 16:16:09.182 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-10 16:16:09.203 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 20.9306ms
+2025-06-10 16:16:09.724 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-10 16:16:09.857 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 133.6618ms
+2025-06-10 16:16:11.024 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-10 16:16:11.031 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-10 16:16:11.033 +05:00 [DBG] Request did not match any endpoints
+2025-06-10 16:16:11.099 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 75.7601ms
+2025-06-10 16:16:14.937 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/api/ScrapingTasks - null null
+2025-06-10 16:16:14.951 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks'
+2025-06-10 16:16:14.958 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)' with route pattern 'api/ScrapingTasks' is valid for the request path '/api/ScrapingTasks'
+2025-06-10 16:16:14.964 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 16:16:14.973 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-10 16:16:14.986 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 16:16:15.055 +05:00 [INF] Route matched with {action = "GetAllTasks", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] GetAllTasks() on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-10 16:16:15.065 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-10 16:16:15.070 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-10 16:16:15.073 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-10 16:16:15.080 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-10 16:16:15.083 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-10 16:16:15.090 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 16:16:15.115 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 16:16:15.295 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) - Validation state: "Valid"
+2025-06-10 16:16:16.904 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 16:16:17.016 +05:00 [DBG] Compiling query expression: 
+'DbSet<ScrapingTask>()'
+2025-06-10 16:16:17.447 +05:00 [DBG] Generated query execution expression: 
+'queryContext => new SingleQueryingEnumerable<ScrapingTask>(
+    (RelationalQueryContext)queryContext, 
+    RelationalCommandCache.QueryExpression(
+        Projection Mapping:
+            EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ScrapingTask.ScrapingTaskId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScrapingTask.CompletedAt (DateTime?), 1], [Property: ScrapingTask.CreatedAt (DateTime) Required, 2], [Property: ScrapingTask.Selector (string) Required, 3], [Property: ScrapingTask.Status (string) Required, 4], [Property: ScrapingTask.Url (string) Required, 5] }
+        SELECT s.ScrapingTaskId, s.CompletedAt, s.CreatedAt, s.Selector, s.Status, s.Url
+        FROM ScrapingTasks AS s), 
+    null, 
+    Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScrapingTask>, 
+    Extractify.Infrastructure.Data.ApplicationDbContext, 
+    False, 
+    False, 
+    True
+)'
+2025-06-10 16:16:17.582 +05:00 [DBG] Creating DbConnection.
+2025-06-10 16:16:17.668 +05:00 [DBG] Created DbConnection. (79ms).
+2025-06-10 16:16:17.680 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:18.308 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:18.322 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 16:16:18.341 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (12ms).
+2025-06-10 16:16:18.350 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (29ms).
+2025-06-10 16:16:18.368 +05:00 [DBG] Executing DbCommand [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+2025-06-10 16:16:18.466 +05:00 [INF] Executed DbCommand (101ms) [Parameters=[], CommandType='"Text"', CommandTimeout='30']
+SELECT [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+2025-06-10 16:16:18.581 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:16:18.660 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:18.678 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 195ms reading results.
+2025-06-10 16:16:18.693 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:18.713 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (21ms).
+2025-06-10 16:16:18.791 +05:00 [INF] Executed action method Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api), returned result Microsoft.AspNetCore.Mvc.OkObjectResult in 3480.5384ms.
+2025-06-10 16:16:18.812 +05:00 [DBG] List of registered output formatters, in the following order: ["Microsoft.AspNetCore.Mvc.Formatters.HttpNoContentOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StringOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.StreamOutputFormatter","Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter"]
+2025-06-10 16:16:18.824 +05:00 [DBG] No information found on request to perform content negotiation.
+2025-06-10 16:16:18.827 +05:00 [DBG] Attempting to select an output formatter without using a content type as no explicit content types were specified for the response.
+2025-06-10 16:16:18.829 +05:00 [DBG] Attempting to select the first formatter in the output formatters list which can write the result.
+2025-06-10 16:16:18.833 +05:00 [DBG] Selected output formatter 'Microsoft.AspNetCore.Mvc.Formatters.SystemTextJsonOutputFormatter' and content type 'application/json' to write the response.
+2025-06-10 16:16:18.837 +05:00 [INF] Executing OkObjectResult, writing value of type 'System.Collections.Generic.List`1[[Extractify.Application.DTOs.ScrapingTaskDto, Extractify.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null]]'.
+2025-06-10 16:16:18.883 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api) in 3790.3795ms
+2025-06-10 16:16:18.887 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.GetAllTasks (Extractify.Api)'
+2025-06-10 16:16:18.899 +05:00 [INF] HTTP GET /api/ScrapingTasks responded 200 in 3915.8509 ms
+2025-06-10 16:16:18.906 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 16:16:18.920 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:18.927 +05:00 [DBG] Disposed connection to database '' on server '' (5ms).
+2025-06-10 16:16:18.931 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/api/ScrapingTasks - 200 null application/json; charset=utf-8 3994.4954ms
+2025-06-10 16:16:26.948 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks/2/execute - null 0
+2025-06-10 16:16:26.952 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks/2/execute'
+2025-06-10 16:16:26.954 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)' with route pattern 'api/ScrapingTasks/{id}/execute' is valid for the request path '/api/ScrapingTasks/2/execute'
+2025-06-10 16:16:26.960 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 16:16:26.963 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-10 16:16:26.966 +05:00 [DBG] The request has an origin header: 'https://localhost:7142'.
+2025-06-10 16:16:26.968 +05:00 [INF] CORS policy execution failed.
+2025-06-10 16:16:26.969 +05:00 [INF] Request origin https://localhost:7142 does not have permission to access the resource.
+2025-06-10 16:16:26.972 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 16:16:26.996 +05:00 [INF] Route matched with {action = "ExecuteTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExecuteTask(Int32) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-10 16:16:27.001 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-10 16:16:27.003 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-10 16:16:27.005 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-10 16:16:27.010 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-10 16:16:27.012 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-10 16:16:27.014 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 16:16:27.017 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-10 16:16:27.036 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-06-10 16:16:27.043 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-06-10 16:16:27.047 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 16:16:27.049 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-10 16:16:27.051 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-06-10 16:16:27.057 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-06-10 16:16:27.151 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api) - Validation state: "Valid"
+2025-06-10 16:16:27.294 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 16:16:27.383 +05:00 [DBG] Compiling query expression: 
+'DbSet<ScrapingTask>()
+    .FirstOrDefault(e => EF.Property<int>(e, "ScrapingTaskId") == __p_0)'
+2025-06-10 16:16:27.615 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ScrapingTask>(
+    asyncEnumerable: new SingleQueryingEnumerable<ScrapingTask>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ScrapingTask.ScrapingTaskId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScrapingTask.CompletedAt (DateTime?), 1], [Property: ScrapingTask.CreatedAt (DateTime) Required, 2], [Property: ScrapingTask.Selector (string) Required, 3], [Property: ScrapingTask.Status (string) Required, 4], [Property: ScrapingTask.Url (string) Required, 5] }
+            SELECT TOP(1) s.ScrapingTaskId, s.CompletedAt, s.CreatedAt, s.Selector, s.Status, s.Url
+            FROM ScrapingTasks AS s
+            WHERE s.ScrapingTaskId == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScrapingTask>, 
+        Extractify.Infrastructure.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-10 16:16:27.645 +05:00 [DBG] Creating DbConnection.
+2025-06-10 16:16:27.647 +05:00 [DBG] Created DbConnection. (2ms).
+2025-06-10 16:16:27.649 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.653 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.656 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 16:16:27.660 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (4ms).
+2025-06-10 16:16:27.671 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (15ms).
+2025-06-10 16:16:27.680 +05:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 16:16:27.764 +05:00 [INF] Executed DbCommand (88ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-10 16:16:27.772 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:16:27.777 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.781 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 9ms reading results.
+2025-06-10 16:16:27.783 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.785 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (1ms).
+2025-06-10 16:16:27.794 +05:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-06-10 16:16:27.800 +05:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-06-10 16:16:27.827 +05:00 [DBG] The unchanged property 'ScrapingTask.Status' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:16:27.837 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:16:27.847 +05:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-06-10 16:16:27.936 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.938 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.944 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 16:16:27.945 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (1ms).
+2025-06-10 16:16:27.947 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (3ms).
+2025-06-10 16:16:27.949 +05:00 [DBG] Executing DbCommand [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 16:16:27.958 +05:00 [INF] Executed DbCommand (9ms) [Parameters=[@p1='?' (DbType = Int32), @p0='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET IMPLICIT_TRANSACTIONS OFF;
+SET NOCOUNT ON;
+UPDATE [ScrapingTasks] SET [Status] = @p0
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p1;
+2025-06-10 16:16:27.976 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.978 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 14ms reading results.
+2025-06-10 16:16:27.983 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:16:27.985 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (2ms).
+2025-06-10 16:16:27.994 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:16:27.999 +05:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 1 entities written to the database.
+2025-06-10 16:16:28.002 +05:00 [INF] Executing task 2 for URL http://books.toscrape.com with selector .product_pod h3 a
+2025-06-10 16:16:32.869 +05:00 [INF] Start processing HTTP request GET http://books.toscrape.com/
+2025-06-10 16:16:32.876 +05:00 [INF] Sending HTTP request GET http://books.toscrape.com/
+2025-06-10 16:16:36.656 +05:00 [INF] Received HTTP response headers after 3773.9135ms - 200
+2025-06-10 16:16:36.659 +05:00 [INF] End processing HTTP request after 3793.0337ms - 200
+2025-06-10 16:17:04.429 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:04.462 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:04.480 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:05.939 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:05.943 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:05.945 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.454 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.458 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.462 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.868 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.872 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:08.875 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.254 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.262 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.267 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.578 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.581 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.584 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.911 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.914 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:09.918 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.243 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.247 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.250 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.575 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.581 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.584 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.935 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.938 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:10.942 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.268 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.272 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.275 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.599 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.602 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.605 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.949 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.952 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:11.956 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.281 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.287 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.290 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.644 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.650 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:12.654 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.003 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.007 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.011 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.361 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.365 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.369 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.689 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.693 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:13.696 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.042 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.046 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.048 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.384 +05:00 [DBG] 'ApplicationDbContext' generated a temporary value for the property 'ScrapedData.ScrapedDataId'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.387 +05:00 [DBG] The navigation 'ScrapedData.ScrapingTask' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.390 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapedData' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:14.861 +05:00 [INF] Task 2 completed successfully.
+2025-06-10 16:17:15.066 +05:00 [DBG] SaveChanges starting for 'ApplicationDbContext'.
+2025-06-10 16:17:15.068 +05:00 [DBG] DetectChanges starting for 'ApplicationDbContext'.
+2025-06-10 16:17:15.075 +05:00 [DBG] The unchanged property 'ScrapingTask.CompletedAt' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.078 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Unchanged"' to '"Modified"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.082 +05:00 [DBG] The unchanged property 'ScrapingTask.Status' was detected as changed and will be marked as modified. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.086 +05:00 [DBG] DetectChanges completed for 'ApplicationDbContext'.
+2025-06-10 16:17:15.143 +05:00 [DBG] Executing 21 update commands as a batch.
+2025-06-10 16:17:15.149 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:17:15.151 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:17:15.155 +05:00 [DBG] Beginning transaction with isolation level 'Unspecified'.
+2025-06-10 16:17:15.170 +05:00 [DBG] Began transaction with isolation level 'ReadCommitted'.
+2025-06-10 16:17:15.174 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-10 16:17:15.176 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (2ms).
+2025-06-10 16:17:15.180 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (6ms).
+2025-06-10 16:17:15.182 +05:00 [DBG] Executing DbCommand [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (DbType = DateTime2), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (DbType = DateTime2), @p17='?' (DbType = Int32), @p18='?' (Size = 4000), @p19='?' (DbType = DateTime2), @p20='?' (DbType = Int32), @p21='?' (Size = 4000), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Int32), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Int32), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2), @p29='?' (DbType = Int32), @p30='?' (Size = 4000), @p31='?' (DbType = DateTime2), @p32='?' (DbType = Int32), @p33='?' (Size = 4000), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (DbType = DateTime2), @p38='?' (DbType = Int32), @p39='?' (Size = 4000), @p40='?' (DbType = DateTime2), @p41='?' (DbType = Int32), @p42='?' (Size = 4000), @p43='?' (DbType = DateTime2), @p44='?' (DbType = Int32), @p45='?' (Size = 4000), @p46='?' (DbType = DateTime2), @p47='?' (DbType = Int32), @p48='?' (Size = 4000), @p49='?' (DbType = DateTime2), @p50='?' (DbType = Int32), @p51='?' (Size = 4000), @p52='?' (DbType = DateTime2), @p53='?' (DbType = Int32), @p54='?' (Size = 4000), @p55='?' (DbType = DateTime2), @p56='?' (DbType = Int32), @p57='?' (Size = 4000), @p58='?' (DbType = DateTime2), @p59='?' (DbType = Int32), @p62='?' (DbType = Int32), @p60='?' (DbType = DateTime2), @p61='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [ScrapedData] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2),
+(@p9, @p10, @p11, 3),
+(@p12, @p13, @p14, 4),
+(@p15, @p16, @p17, 5),
+(@p18, @p19, @p20, 6),
+(@p21, @p22, @p23, 7),
+(@p24, @p25, @p26, 8),
+(@p27, @p28, @p29, 9),
+(@p30, @p31, @p32, 10),
+(@p33, @p34, @p35, 11),
+(@p36, @p37, @p38, 12),
+(@p39, @p40, @p41, 13),
+(@p42, @p43, @p44, 14),
+(@p45, @p46, @p47, 15),
+(@p48, @p49, @p50, 16),
+(@p51, @p52, @p53, 17),
+(@p54, @p55, @p56, 18),
+(@p57, @p58, @p59, 19)) AS i ([Content], [ScrapedAt], [ScrapingTaskId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Content], [ScrapedAt], [ScrapingTaskId])
+VALUES (i.[Content], i.[ScrapedAt], i.[ScrapingTaskId])
+OUTPUT INSERTED.[ScrapedDataId], i._Position;
+UPDATE [ScrapingTasks] SET [CompletedAt] = @p60, [Status] = @p61
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p62;
+2025-06-10 16:17:15.225 +05:00 [INF] Executed DbCommand (43ms) [Parameters=[@p0='?' (Size = 4000), @p1='?' (DbType = DateTime2), @p2='?' (DbType = Int32), @p3='?' (Size = 4000), @p4='?' (DbType = DateTime2), @p5='?' (DbType = Int32), @p6='?' (Size = 4000), @p7='?' (DbType = DateTime2), @p8='?' (DbType = Int32), @p9='?' (Size = 4000), @p10='?' (DbType = DateTime2), @p11='?' (DbType = Int32), @p12='?' (Size = 4000), @p13='?' (DbType = DateTime2), @p14='?' (DbType = Int32), @p15='?' (Size = 4000), @p16='?' (DbType = DateTime2), @p17='?' (DbType = Int32), @p18='?' (Size = 4000), @p19='?' (DbType = DateTime2), @p20='?' (DbType = Int32), @p21='?' (Size = 4000), @p22='?' (DbType = DateTime2), @p23='?' (DbType = Int32), @p24='?' (Size = 4000), @p25='?' (DbType = DateTime2), @p26='?' (DbType = Int32), @p27='?' (Size = 4000), @p28='?' (DbType = DateTime2), @p29='?' (DbType = Int32), @p30='?' (Size = 4000), @p31='?' (DbType = DateTime2), @p32='?' (DbType = Int32), @p33='?' (Size = 4000), @p34='?' (DbType = DateTime2), @p35='?' (DbType = Int32), @p36='?' (Size = 4000), @p37='?' (DbType = DateTime2), @p38='?' (DbType = Int32), @p39='?' (Size = 4000), @p40='?' (DbType = DateTime2), @p41='?' (DbType = Int32), @p42='?' (Size = 4000), @p43='?' (DbType = DateTime2), @p44='?' (DbType = Int32), @p45='?' (Size = 4000), @p46='?' (DbType = DateTime2), @p47='?' (DbType = Int32), @p48='?' (Size = 4000), @p49='?' (DbType = DateTime2), @p50='?' (DbType = Int32), @p51='?' (Size = 4000), @p52='?' (DbType = DateTime2), @p53='?' (DbType = Int32), @p54='?' (Size = 4000), @p55='?' (DbType = DateTime2), @p56='?' (DbType = Int32), @p57='?' (Size = 4000), @p58='?' (DbType = DateTime2), @p59='?' (DbType = Int32), @p62='?' (DbType = Int32), @p60='?' (DbType = DateTime2), @p61='?' (Size = 4000)], CommandType='"Text"', CommandTimeout='30']
+SET NOCOUNT ON;
+MERGE [ScrapedData] USING (
+VALUES (@p0, @p1, @p2, 0),
+(@p3, @p4, @p5, 1),
+(@p6, @p7, @p8, 2),
+(@p9, @p10, @p11, 3),
+(@p12, @p13, @p14, 4),
+(@p15, @p16, @p17, 5),
+(@p18, @p19, @p20, 6),
+(@p21, @p22, @p23, 7),
+(@p24, @p25, @p26, 8),
+(@p27, @p28, @p29, 9),
+(@p30, @p31, @p32, 10),
+(@p33, @p34, @p35, 11),
+(@p36, @p37, @p38, 12),
+(@p39, @p40, @p41, 13),
+(@p42, @p43, @p44, 14),
+(@p45, @p46, @p47, 15),
+(@p48, @p49, @p50, 16),
+(@p51, @p52, @p53, 17),
+(@p54, @p55, @p56, 18),
+(@p57, @p58, @p59, 19)) AS i ([Content], [ScrapedAt], [ScrapingTaskId], _Position) ON 1=0
+WHEN NOT MATCHED THEN
+INSERT ([Content], [ScrapedAt], [ScrapingTaskId])
+VALUES (i.[Content], i.[ScrapedAt], i.[ScrapingTaskId])
+OUTPUT INSERTED.[ScrapedDataId], i._Position;
+UPDATE [ScrapingTasks] SET [CompletedAt] = @p60, [Status] = @p61
+OUTPUT 1
+WHERE [ScrapingTaskId] = @p62;
+2025-06-10 16:17:15.248 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.259 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.263 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.267 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.269 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.272 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.276 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.281 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.283 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.285 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.289 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.293 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.299 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.302 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.306 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.309 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.311 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.314 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.317 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.322 +05:00 [DBG] The foreign key property 'ScrapedData.ScrapedDataId' was detected as changed. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see property values.
+2025-06-10 16:17:15.329 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:17:15.332 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 96ms reading results.
+2025-06-10 16:17:15.339 +05:00 [DBG] Committing transaction.
+2025-06-10 16:17:15.347 +05:00 [DBG] Committed transaction.
+2025-06-10 16:17:15.352 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:17:15.354 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (1ms).
+2025-06-10 16:17:15.360 +05:00 [DBG] Disposing transaction.
+2025-06-10 16:17:15.364 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.369 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.374 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.379 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.382 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.386 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.390 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.395 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.400 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.404 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.408 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.412 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.416 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.420 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.424 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.428 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.433 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.437 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.441 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.447 +05:00 [DBG] An entity of type 'ScrapedData' tracked by 'ApplicationDbContext' changed state from '"Added"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.451 +05:00 [DBG] An entity of type 'ScrapingTask' tracked by 'ApplicationDbContext' changed state from '"Modified"' to '"Unchanged"'. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-10 16:17:15.455 +05:00 [DBG] SaveChanges completed for 'ApplicationDbContext' with 21 entities written to the database.
+2025-06-10 16:17:17.346 +05:00 [INF] Executed action method Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api), returned result Microsoft.AspNetCore.Mvc.NoContentResult in 50192.767ms.
+2025-06-10 16:17:17.350 +05:00 [INF] Executing StatusCodeResult, setting HTTP status code 204
+2025-06-10 16:17:17.353 +05:00 [INF] Executed action Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api) in 50338.8475ms
+2025-06-10 16:17:17.356 +05:00 [INF] Executed endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-10 16:17:17.358 +05:00 [INF] HTTP POST /api/ScrapingTasks/2/execute responded 204 in 50393.8416 ms
+2025-06-10 16:17:17.364 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 16:17:17.366 +05:00 [DBG] Disposing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-10 16:17:17.369 +05:00 [DBG] Disposed connection to database '' on server '' (2ms).
+2025-06-10 16:17:17.372 +05:00 [INF] Request finished HTTP/2 POST https://localhost:7142/api/ScrapingTasks/2/execute - 204 null null 50424.0451ms
+2025-06-10 16:18:31.012 +05:00 [DBG] HttpMessageHandler expired after 120000ms for client ''
+2025-06-10 16:18:41.018 +05:00 [DBG] Starting HttpMessageHandler cleanup cycle with 1 items
+2025-06-10 16:18:41.025 +05:00 [DBG] Ending HttpMessageHandler cleanup cycle after 0.4385ms - processed: 1 items - remaining: 0 items
+2025-06-10 16:25:24.002 +05:00 [DBG] Connection id "0HND820P3A9A5" received FIN.
+2025-06-10 16:25:24.083 +05:00 [DBG] Connection id "0HND820P3A9A5" is closed. The last processed stream ID was 11.
+2025-06-10 16:25:24.089 +05:00 [DBG] The connection queue processing loop for 0HND820P3A9A5 completed.
+2025-06-10 16:25:24.091 +05:00 [DBG] Connection id "0HND820P3A9A5" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-10 16:25:24.119 +05:00 [DBG] Connection id "0HND820P3A9A5" stopped.
+2025-06-10 16:32:36.616 +05:00 [INF] Validating DI for IScraperClient
+2025-06-10 16:32:36.686 +05:00 [INF] Validating DI for IScrapingService
+2025-06-10 16:32:36.840 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-10 16:32:37.008 +05:00 [INF] DI validation successful

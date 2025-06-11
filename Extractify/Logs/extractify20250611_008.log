@@ -1,0 +1,130 @@
+2025-06-11 16:55:11.734 +05:00 [DBG] Registered model binder providers, in the following order: ["Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BinderTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ServicesModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.BodyModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.HeaderModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FloatingPointTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.EnumTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DateTimeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.SimpleTypeModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.TryParseModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CancellationTokenModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ByteArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormFileModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.FormCollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.KeyValuePairModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.DictionaryModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ArrayModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.CollectionModelBinderProvider","Microsoft.AspNetCore.Mvc.ModelBinding.Binders.ComplexObjectModelBinderProvider"]
+2025-06-11 16:55:11.961 +05:00 [DBG] Hosting starting
+2025-06-11 16:55:12.348 +05:00 [INF] Now listening on: https://localhost:7142
+2025-06-11 16:55:12.361 +05:00 [INF] Now listening on: http://localhost:5217
+2025-06-11 16:55:12.363 +05:00 [DBG] Loaded hosting startup assembly Extractify.Api
+2025-06-11 16:55:12.369 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.ApiEndpointDiscovery
+2025-06-11 16:55:12.370 +05:00 [DBG] Loaded hosting startup assembly Microsoft.AspNetCore.Watch.BrowserRefresh
+2025-06-11 16:55:12.371 +05:00 [DBG] Loaded hosting startup assembly Microsoft.WebTools.BrowserLink.Net
+2025-06-11 16:55:12.483 +05:00 [INF] Application started. Press Ctrl+C to shut down.
+2025-06-11 16:55:12.485 +05:00 [INF] Hosting environment: Development
+2025-06-11 16:55:12.486 +05:00 [INF] Content root path: F:\codeFirst\Extractify\Extractify
+2025-06-11 16:55:12.487 +05:00 [DBG] Hosting started
+2025-06-11 16:55:12.623 +05:00 [DBG] Connection id "0HND8RR99R71U" accepted.
+2025-06-11 16:55:12.626 +05:00 [DBG] Connection id "0HND8RR99R71V" accepted.
+2025-06-11 16:55:12.628 +05:00 [DBG] Connection id "0HND8RR99R71U" started.
+2025-06-11 16:55:12.628 +05:00 [DBG] Connection id "0HND8RR99R71V" started.
+2025-06-11 16:55:12.647 +05:00 [DBG] Connection id "0HND8RR99R71U" received FIN.
+2025-06-11 16:55:12.647 +05:00 [DBG] Connection id "0HND8RR99R71V" received FIN.
+2025-06-11 16:55:12.662 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-11 16:55:12.662 +05:00 [DBG] Failed to authenticate HTTPS connection.
+System.IO.IOException: Received an unexpected EOF or 0 bytes from the transport stream.
+   at System.Net.Security.SslStream.ReceiveHandshakeFrameAsync[TIOAdapter](CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ForceAuthenticationAsync[TIOAdapter](Boolean receiveFirst, Byte[] reAuthenticationData, CancellationToken cancellationToken)
+   at System.Net.Security.SslStream.ProcessAuthenticationWithTelemetryAsync(Boolean isAsync, CancellationToken cancellationToken)
+   at Microsoft.AspNetCore.Server.Kestrel.Https.Internal.HttpsConnectionMiddleware.OnConnectionAsync(ConnectionContext context)
+2025-06-11 16:55:12.767 +05:00 [DBG] Connection id "0HND8RR99R71U" stopped.
+2025-06-11 16:55:12.767 +05:00 [DBG] Connection id "0HND8RR99R71V" stopped.
+2025-06-11 16:55:12.778 +05:00 [DBG] Connection id "0HND8RR99R71U" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-11 16:55:12.778 +05:00 [DBG] Connection id "0HND8RR99R71V" sending FIN because: "The Socket transport's send loop completed gracefully."
+2025-06-11 16:55:13.057 +05:00 [DBG] Connection id "0HND8RR99R720" accepted.
+2025-06-11 16:55:13.214 +05:00 [DBG] Connection id "0HND8RR99R720" started.
+2025-06-11 16:55:13.305 +05:00 [DBG] Connection 0HND8RR99R720 established using the following protocol: "Tls12"
+2025-06-11 16:55:13.415 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/index.html - null null
+2025-06-11 16:55:13.820 +05:00 [DBG] Wildcard detected, all requests with hosts will be allowed.
+2025-06-11 16:55:13.846 +05:00 [DBG] No candidates found for the request path '/swagger/index.html'
+2025-06-11 16:55:13.848 +05:00 [DBG] Request did not match any endpoints
+2025-06-11 16:55:13.933 +05:00 [DBG] Response markup is scheduled to include Browser Link script injection.
+2025-06-11 16:55:13.935 +05:00 [DBG] Response markup is scheduled to include browser refresh script injection.
+2025-06-11 16:55:13.957 +05:00 [DBG] Response markup was updated to include Browser Link script injection.
+2025-06-11 16:55:13.961 +05:00 [DBG] Response markup was updated to include browser refresh script injection.
+2025-06-11 16:55:13.967 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/index.html - 200 null text/html;charset=utf-8 561.9092ms
+2025-06-11 16:55:14.069 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - null null
+2025-06-11 16:55:14.082 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_framework/aspnetcore-browser-refresh.js - 200 13764 application/javascript; charset=utf-8 13.343ms
+2025-06-11 16:55:14.649 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/_vs/browserLink - null null
+2025-06-11 16:55:14.773 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/_vs/browserLink - 200 null text/javascript; charset=UTF-8 124.2478ms
+2025-06-11 16:55:15.696 +05:00 [INF] Request starting HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - null null
+2025-06-11 16:55:15.700 +05:00 [DBG] No candidates found for the request path '/swagger/v1/swagger.json'
+2025-06-11 16:55:15.702 +05:00 [DBG] Request did not match any endpoints
+2025-06-11 16:55:15.779 +05:00 [INF] Request finished HTTP/2 GET https://localhost:7142/swagger/v1/swagger.json - 200 null application/json;charset=utf-8 82.61ms
+2025-06-11 16:55:20.013 +05:00 [DBG] Connection id "0HND8RR99R721" accepted.
+2025-06-11 16:55:20.015 +05:00 [DBG] Connection id "0HND8RR99R721" started.
+2025-06-11 16:55:20.063 +05:00 [DBG] Connection 0HND8RR99R721 established using the following protocol: "Tls12"
+2025-06-11 16:55:20.071 +05:00 [INF] Request starting HTTP/2 POST https://localhost:7142/api/ScrapingTasks/4/execute - null 0
+2025-06-11 16:55:20.096 +05:00 [DBG] 1 candidate(s) found for the request path '/api/ScrapingTasks/4/execute'
+2025-06-11 16:55:20.106 +05:00 [DBG] Endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)' with route pattern 'api/ScrapingTasks/{id}/execute' is valid for the request path '/api/ScrapingTasks/4/execute'
+2025-06-11 16:55:20.113 +05:00 [DBG] Request matched endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-11 16:55:20.121 +05:00 [DBG] Static files was skipped as the request already matched an endpoint.
+2025-06-11 16:55:20.130 +05:00 [DBG] The request has an origin header: 'http://localhost:4200'.
+2025-06-11 16:55:20.133 +05:00 [INF] CORS policy execution successful.
+2025-06-11 16:55:20.140 +05:00 [INF] Executing endpoint 'Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api)'
+2025-06-11 16:55:20.190 +05:00 [INF] Route matched with {action = "ExecuteTask", controller = "ScrapingTasks"}. Executing controller action with signature System.Threading.Tasks.Task`1[Microsoft.AspNetCore.Mvc.IActionResult] ExecuteTask(Int32) on controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api).
+2025-06-11 16:55:20.198 +05:00 [DBG] Execution plan of authorization filters (in the following order): ["None"]
+2025-06-11 16:55:20.202 +05:00 [DBG] Execution plan of resource filters (in the following order): ["None"]
+2025-06-11 16:55:20.206 +05:00 [DBG] Execution plan of action filters (in the following order): ["Microsoft.AspNetCore.Mvc.ModelBinding.UnsupportedContentTypeFilter (Order: -3000)","Microsoft.AspNetCore.Mvc.Infrastructure.ModelStateInvalidFilter (Order: -2000)"]
+2025-06-11 16:55:20.214 +05:00 [DBG] Execution plan of exception filters (in the following order): ["None"]
+2025-06-11 16:55:20.217 +05:00 [DBG] Execution plan of result filters (in the following order): ["Microsoft.AspNetCore.Mvc.Infrastructure.ClientErrorResultFilter (Order: -2000)"]
+2025-06-11 16:55:20.224 +05:00 [DBG] Executing controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:55:20.261 +05:00 [DBG] Executed controller factory for controller Extractify.Api.Controllers.ScrapingTasksController (Extractify.Api)
+2025-06-11 16:55:20.294 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' ...
+2025-06-11 16:55:20.302 +05:00 [DBG] Attempting to bind parameter 'id' of type 'System.Int32' using the name 'id' in request data ...
+2025-06-11 16:55:20.308 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-11 16:55:20.312 +05:00 [DBG] Done attempting to bind parameter 'id' of type 'System.Int32'.
+2025-06-11 16:55:20.315 +05:00 [DBG] Attempting to validate the bound parameter 'id' of type 'System.Int32' ...
+2025-06-11 16:55:20.322 +05:00 [DBG] Done attempting to validate the bound parameter 'id' of type 'System.Int32'.
+2025-06-11 16:55:20.483 +05:00 [INF] Executing action method Extractify.Api.Controllers.ScrapingTasksController.ExecuteTask (Extractify.Api) - Validation state: "Valid"
+2025-06-11 16:55:25.454 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-11 16:55:25.618 +05:00 [DBG] Compiling query expression: 
+'DbSet<ScrapingTask>()
+    .FirstOrDefault(e => EF.Property<int>(e, "ScrapingTaskId") == __p_0)'
+2025-06-11 16:55:26.000 +05:00 [DBG] Generated query execution expression: 
+'queryContext => ShapedQueryCompilingExpressionVisitor.SingleOrDefaultAsync<ScrapingTask>(
+    asyncEnumerable: new SingleQueryingEnumerable<ScrapingTask>(
+        (RelationalQueryContext)queryContext, 
+        RelationalCommandCache.QueryExpression(
+            Projection Mapping:
+                EmptyProjectionMember -> Dictionary<IProperty, int> { [Property: ScrapingTask.ScrapingTaskId (int) Required PK AfterSave:Throw ValueGenerated.OnAdd, 0], [Property: ScrapingTask.CompletedAt (DateTime?), 1], [Property: ScrapingTask.CreatedAt (DateTime) Required, 2], [Property: ScrapingTask.ImageSelector (string), 3], [Property: ScrapingTask.Selector (string), 4], [Property: ScrapingTask.Status (string) Required, 5], [Property: ScrapingTask.Url (string) Required, 6] }
+            SELECT TOP(1) s.ScrapingTaskId, s.CompletedAt, s.CreatedAt, s.ImageSelector, s.Selector, s.Status, s.Url
+            FROM ScrapingTasks AS s
+            WHERE s.ScrapingTaskId == @__p_0), 
+        null, 
+        Func<QueryContext, DbDataReader, ResultContext, SingleQueryResultCoordinator, ScrapingTask>, 
+        Extractify.Infrastructure.Data.ApplicationDbContext, 
+        False, 
+        False, 
+        True
+    ), 
+    cancellationToken: queryContext.CancellationToken)'
+2025-06-11 16:55:26.059 +05:00 [DBG] Creating DbConnection.
+2025-06-11 16:55:26.096 +05:00 [DBG] Created DbConnection. (34ms).
+2025-06-11 16:55:26.105 +05:00 [DBG] Opening connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-11 16:55:26.557 +05:00 [DBG] Opened connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-11 16:55:26.565 +05:00 [DBG] Creating DbCommand for 'ExecuteReader'.
+2025-06-11 16:55:26.582 +05:00 [DBG] Created DbCommand for 'ExecuteReader' (10ms).
+2025-06-11 16:55:26.600 +05:00 [DBG] Initialized DbCommand for 'ExecuteReader' (36ms).
+2025-06-11 16:55:26.619 +05:00 [DBG] Executing DbCommand [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[ImageSelector], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-11 16:55:26.705 +05:00 [INF] Executed DbCommand (93ms) [Parameters=[@__p_0='?' (DbType = Int32)], CommandType='"Text"', CommandTimeout='30']
+SELECT TOP(1) [s].[ScrapingTaskId], [s].[CompletedAt], [s].[CreatedAt], [s].[ImageSelector], [s].[Selector], [s].[Status], [s].[Url]
+FROM [ScrapingTasks] AS [s]
+WHERE [s].[ScrapingTaskId] = @__p_0
+2025-06-11 16:55:26.792 +05:00 [DBG] Context 'ApplicationDbContext' started tracking 'ScrapingTask' entity. Consider using 'DbContextOptionsBuilder.EnableSensitiveDataLogging' to see key values.
+2025-06-11 16:55:26.852 +05:00 [DBG] Closing data reader to 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-11 16:55:26.867 +05:00 [DBG] A data reader for 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' is being disposed after spending 151ms reading results.
+2025-06-11 16:55:26.875 +05:00 [DBG] Closing connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ'.
+2025-06-11 16:55:26.887 +05:00 [DBG] Closed connection to database 'ExtractifyDB' on server 'DESKTOP-6R2M2KQ' (12ms).
+2025-06-11 16:55:39.292 +05:00 [INF] Start processing HTTP request GET https://quotes.toscrape.com/
+2025-06-11 16:55:39.297 +05:00 [INF] Sending HTTP request GET https://quotes.toscrape.com/
+2025-06-11 16:55:41.694 +05:00 [INF] Received HTTP response headers after 2390.0888ms - 200
+2025-06-11 16:55:41.699 +05:00 [INF] End processing HTTP request after 2410.7961ms - 200
+2025-06-11 17:09:19.064 +05:00 [INF] Validating DI for IScraperClient
+2025-06-11 17:09:19.186 +05:00 [INF] Validating DI for IScrapingService
+2025-06-11 17:09:19.401 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-11 17:09:19.573 +05:00 [INF] DI validation successful

@@ -1,0 +1,17 @@
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Infrastructure.deps.json
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Infrastructure.runtimeconfig.json
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Infrastructure.dll
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Infrastructure.pdb
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Domain.dll
+F:\codeFirst\Extractify\Extractify.Infrastructure\bin\Debug\net8.0\Extractify.Domain.pdb
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.csproj.AssemblyReference.cache
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.AssemblyInfoInputs.cache
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.AssemblyInfo.cs
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.csproj.CoreCompileInputs.cache
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extracti.BD464358.Up2Date
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.dll
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\refint\Extractify.Infrastructure.dll
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.pdb
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\Extractify.Infrastructure.genruntimeconfig.cache
+F:\codeFirst\Extractify\Extractify.Infrastructure\obj\Debug\net8.0\ref\Extractify.Infrastructure.dll

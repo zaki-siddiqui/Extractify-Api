@@ -1,0 +1,6 @@
+{
+  "Extractify.Api, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\codeFirst\\Extractify\\Extractify",
+  "Extractify.Application, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\codeFirst\\Extractify\\Extractify.Application",
+  "Extractify.Domain, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\codeFirst\\Extractify\\Extractify.Domain",
+  "Extractify.Infrastructure, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null": "F:\\codeFirst\\Extractify\\Extractify.Infrastructure"
+}

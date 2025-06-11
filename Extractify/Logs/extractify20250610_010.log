@@ -1,0 +1,6 @@
+2025-06-10 19:10:09.514 +05:00 [DBG] Entity Framework Core 8.0.16 initialized 'ApplicationDbContext' using provider 'Microsoft.EntityFrameworkCore.SqlServer:8.0.16' with options: None
+2025-06-10 19:10:10.700 +05:00 [DBG] 'ApplicationDbContext' disposed.
+2025-06-10 19:10:22.409 +05:00 [INF] Validating DI for IScraperClient
+2025-06-10 19:10:22.485 +05:00 [INF] Validating DI for IScrapingService
+2025-06-10 19:10:22.636 +05:00 [DBG] An 'IServiceProvider' was created for internal use by Entity Framework.
+2025-06-10 19:10:22.788 +05:00 [INF] DI validation successful
